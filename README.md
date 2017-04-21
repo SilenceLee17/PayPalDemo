@@ -1,0 +1,2 @@
+安装cocoapods
+工程目录下执行pod install
