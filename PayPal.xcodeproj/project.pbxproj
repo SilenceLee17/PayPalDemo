@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A55CEC4C9E7E2E8CE8CD04B /* libPods-PayPal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C22C19B9CBB27A7E72858D8 /* libPods-PayPal.a */; };
+		F304E4361EA7A91100BA9451 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F304E4351EA7A91100BA9451 /* Accelerate.framework */; };
+		F304E4381EA7A91700BA9451 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F304E4371EA7A91700BA9451 /* AudioToolbox.framework */; };
+		F304E43A1EA7A91D00BA9451 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F304E4391EA7A91D00BA9451 /* CoreLocation.framework */; };
+		F304E43C1EA7A92E00BA9451 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F304E43B1EA7A92E00BA9451 /* CoreMedia.framework */; };
+		F304E43E1EA7A93300BA9451 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F304E43D1EA7A93300BA9451 /* MessageUI.framework */; };
+		F304E4401EA7A93D00BA9451 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F304E43F1EA7A93D00BA9451 /* MobileCoreServices.framework */; };
+		F304E4421EA7A94400BA9451 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F304E4411EA7A94400BA9451 /* SystemConfiguration.framework */; };
+		F304E4441EA7A94B00BA9451 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F304E4431EA7A94B00BA9451 /* SafariServices.framework */; };
+		F3E47D3B1EA650DE00BF4177 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E47D3A1EA650DE00BF4177 /* main.m */; };
+		F3E47D3E1EA650DE00BF4177 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E47D3D1EA650DE00BF4177 /* AppDelegate.m */; };
+		F3E47D411EA650DE00BF4177 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E47D401EA650DE00BF4177 /* ViewController.m */; };
+		F3E47D461EA650DE00BF4177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E47D451EA650DE00BF4177 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C22C19B9CBB27A7E72858D8 /* libPods-PayPal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PayPal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED83F71890BE93C807FDB35 /* Pods-PayPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayPal.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayPal/Pods-PayPal.release.xcconfig"; sourceTree = "<group>"; };
+		EFD5B0D4B4565E70E21B2DE9 /* Pods-PayPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayPal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayPal/Pods-PayPal.debug.xcconfig"; sourceTree = "<group>"; };
+		F304E4351EA7A91100BA9451 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		F304E4371EA7A91700BA9451 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F304E4391EA7A91D00BA9451 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F304E43B1EA7A92E00BA9451 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F304E43D1EA7A93300BA9451 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F304E43F1EA7A93D00BA9451 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F304E4411EA7A94400BA9451 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F304E4431EA7A94B00BA9451 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		F3E47D361EA650DE00BF4177 /* PayPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E47D3A1EA650DE00BF4177 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3E47D3C1EA650DE00BF4177 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3E47D3D1EA650DE00BF4177 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3E47D3F1EA650DE00BF4177 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F3E47D401EA650DE00BF4177 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3E47D451EA650DE00BF4177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3E47D4A1EA650DE00BF4177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3E47D331EA650DE00BF4177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F304E4441EA7A94B00BA9451 /* SafariServices.framework in Frameworks */,
+				F304E4421EA7A94400BA9451 /* SystemConfiguration.framework in Frameworks */,
+				F304E4401EA7A93D00BA9451 /* MobileCoreServices.framework in Frameworks */,
+				F304E43E1EA7A93300BA9451 /* MessageUI.framework in Frameworks */,
+				F304E43C1EA7A92E00BA9451 /* CoreMedia.framework in Frameworks */,
+				F304E43A1EA7A91D00BA9451 /* CoreLocation.framework in Frameworks */,
+				F304E4381EA7A91700BA9451 /* AudioToolbox.framework in Frameworks */,
+				F304E4361EA7A91100BA9451 /* Accelerate.framework in Frameworks */,
+				9A55CEC4C9E7E2E8CE8CD04B /* libPods-PayPal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C1A1F621FA48770F6E4CB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFD5B0D4B4565E70E21B2DE9 /* Pods-PayPal.debug.xcconfig */,
+				9ED83F71890BE93C807FDB35 /* Pods-PayPal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		78474C5E100E6148B938A2ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F304E4431EA7A94B00BA9451 /* SafariServices.framework */,
+				F304E4411EA7A94400BA9451 /* SystemConfiguration.framework */,
+				F304E43F1EA7A93D00BA9451 /* MobileCoreServices.framework */,
+				F304E43D1EA7A93300BA9451 /* MessageUI.framework */,
+				F304E43B1EA7A92E00BA9451 /* CoreMedia.framework */,
+				F304E4391EA7A91D00BA9451 /* CoreLocation.framework */,
+				F304E4371EA7A91700BA9451 /* AudioToolbox.framework */,
+				F304E4351EA7A91100BA9451 /* Accelerate.framework */,
+				4C22C19B9CBB27A7E72858D8 /* libPods-PayPal.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3E47D2D1EA650DE00BF4177 = {
+			isa = PBXGroup;
+			children = (
+				F3E47D381EA650DE00BF4177 /* PayPal */,
+				F3E47D371EA650DE00BF4177 /* Products */,
+				19C1A1F621FA48770F6E4CB5 /* Pods */,
+				78474C5E100E6148B938A2ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3E47D371EA650DE00BF4177 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3E47D361EA650DE00BF4177 /* PayPal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3E47D381EA650DE00BF4177 /* PayPal */ = {
+			isa = PBXGroup;
+			children = (
+				F3E47D3C1EA650DE00BF4177 /* AppDelegate.h */,
+				F3E47D3D1EA650DE00BF4177 /* AppDelegate.m */,
+				F3E47D3F1EA650DE00BF4177 /* ViewController.h */,
+				F3E47D401EA650DE00BF4177 /* ViewController.m */,
+				F3E47D451EA650DE00BF4177 /* Assets.xcassets */,
+				F3E47D4A1EA650DE00BF4177 /* Info.plist */,
+				F3E47D391EA650DE00BF4177 /* Supporting Files */,
+			);
+			path = PayPal;
+			sourceTree = "<group>";
+		};
+		F3E47D391EA650DE00BF4177 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3E47D3A1EA650DE00BF4177 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3E47D351EA650DE00BF4177 /* PayPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3E47D4D1EA650DE00BF4177 /* Build configuration list for PBXNativeTarget "PayPal" */;
+			buildPhases = (
+				FA9D1BCAE413D07A4A9F711B /* 📦 Check Pods Manifest.lock */,
+				F3E47D321EA650DE00BF4177 /* Sources */,
+				F3E47D331EA650DE00BF4177 /* Frameworks */,
+				F3E47D341EA650DE00BF4177 /* Resources */,
+				457EA62761FA5CAD7A95271E /* 📦 Embed Pods Frameworks */,
+				D3836E3E15C6B181824F813E /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayPal;
+			productName = PayPal;
+			productReference = F3E47D361EA650DE00BF4177 /* PayPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3E47D2E1EA650DE00BF4177 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = xingshao;
+				TargetAttributes = {
+					F3E47D351EA650DE00BF4177 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F3E47D311EA650DE00BF4177 /* Build configuration list for PBXProject "PayPal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3E47D2D1EA650DE00BF4177;
+			productRefGroup = F3E47D371EA650DE00BF4177 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3E47D351EA650DE00BF4177 /* PayPal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3E47D341EA650DE00BF4177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E47D461EA650DE00BF4177 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		457EA62761FA5CAD7A95271E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayPal/Pods-PayPal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3836E3E15C6B181824F813E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayPal/Pods-PayPal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA9D1BCAE413D07A4A9F711B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3E47D321EA650DE00BF4177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E47D411EA650DE00BF4177 /* ViewController.m in Sources */,
+				F3E47D3E1EA650DE00BF4177 /* AppDelegate.m in Sources */,
+				F3E47D3B1EA650DE00BF4177 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F3E47D4B1EA650DE00BF4177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3E47D4C1EA650DE00BF4177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3E47D4E1EA650DE00BF4177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFD5B0D4B4565E70E21B2DE9 /* Pods-PayPal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayPal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xingshao.PayPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3E47D4F1EA650DE00BF4177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED83F71890BE93C807FDB35 /* Pods-PayPal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayPal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xingshao.PayPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3E47D311EA650DE00BF4177 /* Build configuration list for PBXProject "PayPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E47D4B1EA650DE00BF4177 /* Debug */,
+				F3E47D4C1EA650DE00BF4177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3E47D4D1EA650DE00BF4177 /* Build configuration list for PBXNativeTarget "PayPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E47D4E1EA650DE00BF4177 /* Debug */,
+				F3E47D4F1EA650DE00BF4177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3E47D2E1EA650DE00BF4177 /* Project object */;
+}
